@@ -36,10 +36,10 @@ def filter_words(words, skip_words):
             pass
     return filtered_input
 def remove_punct(text):
-    """This function is used to remove all punctuation
-    marks from a string. Spaces do not count as punctuation and should
-    not be removed. The funcion takes a string and returns a new string
-    which does not contain any puctuation. For example:
+    """This function is used to remove all punctuation marks from a string.
+        Spaces do not count as punctuation and should
+        not be removed. The funcion takes a string and returns a new string
+        which does not contain any puctuation. For example:
 
     >>> remove_punct("Hello, World!")
     'Hello World'

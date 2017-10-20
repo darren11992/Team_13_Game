@@ -76,7 +76,7 @@ def remove_spaces(text):
     return text
 
 
-def normalise_input(user_input):
+def normalise_input(user_input, is_rap):
     """This function removes all punctuation from the string and converts it to
     lower case. It then splits the string into a list of words (also removing
     any extra spaces between words) and further removes all "unimportant"
@@ -104,5 +104,9 @@ def normalise_input(user_input):
     # Remove punctuation and convert to lower case
     no_punct = remove_punct(user_input).lower()
     no_punct = remove_spaces(no_punct)
-    no_punct = filter_words(no_punct.split(), skip_words)
+    if is_rap == True:
+        no_punct = filter_words(no_punct.split(), [])
+    else:
+        no_punct = filter_words(no_punct.split(), skip_words)
+
     return no_punct

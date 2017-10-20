@@ -1,7 +1,10 @@
 from items import *
-from map import rooms
+from roomsgit import rooms
+#from rooms import rooms
 
-inventory = [item_id, item_laptop, item_money]
+inventory = [item_necklace]
 
 # Start game at the reception
-current_room = rooms["Reception"]
+global current_room
+score = 0
+current_room = rooms["Jail Entrance"]

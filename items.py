@@ -1,51 +1,70 @@
-item_id = {
-    "id": "id",
+item_necklace = {
+    "id": "necklace",
 
-    "name": "id card",
-
-    "description":
-    """You new shiny student ID card. Expires 1 June 2017.
-You wonder why they have printed a suicide hotline number on it?..."""
-}
-
-item_laptop = {
-    "id": "laptop",
-
-    "name": "laptop",
+    "name": " a gold necklace",
 
     "description":
-    "It has seen better days. At least it has a WiFi card!"
+    """Your massive gold chain. Literally, your street cred has increased
+    just because nobody knows how you can carry them around your neck""",
+
+    "reputation": 1,
 }
 
-item_money = {
-    "id": "money",
+item_glasses = {
+    "id": "glasses",
 
-    "name": "money",
+    "name": "a pair of cool sunglasses",
 
     "description":
-    "This wad of cash is barely enough to pay your tuition fees."
+    """"Your sunglasses. They increase your reputation just because since you've
+    been wearing them nobody has seen you take them off. Word is you sleep with
+    them on.""",
+
+    "reputation": 1,
 }
 
-item_biscuits = {
-    "id": "biscuits",
+item_dreadlocks = {
+    "id": "dreadlocks",
 
-    "name": "a pack of biscuits",
+    "name": "A new haircut of fresh dreadlocks",
 
-    "description": "A pack of biscuits."
+    "description":
+    "Yeah, you deffo look better with that haircut...what do I know I can only code.",
+
+    "reputation": 1,
 }
 
-item_pen = {
-    "id": "pen",
+item_tattoo = {
+    "id": "tattoo",
 
-    "name": "a pen",
+    "name": "a sugarton of tattoos",
 
-    "description": "A basic ballpoint pen."
+    "description": """Your tattoos have increased your street cred simply because
+    nobody understands how you got that much of your body covered in ink.""",
+
+    "reputation": 1,
 }
 
-item_handbook = {
-    "id": "handbook",
+item_mic = {
+    "id": "mic",
 
-    "name": "a student handbook",
+    "name": "the latest microphone",
 
-    "description": "This student handbook explains everything. Seriously."
+    "description": """This microphone has the latest technology which allows
+    you to rap even better!! If we were better at coding, this item could
+    be really special!""",
+
+    "reputation": 1,
 }
+
+item_hat = {
+    "id": "hat",
+
+    "name": "a hat of some kind (use uour imagination)",
+
+    "description": """Is it a snapback? Is it a bandana? I literally could
+    not care less. What I do know is your street cred has increased.""",
+
+    "reputation": 1,
+}
+                            #Items changed by Darren 18/10/17

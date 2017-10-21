@@ -1,3 +1,6 @@
+"""File to contain the items the player wins in battles."""
+
+
 item_necklace = {
     "id": "necklace",
 
@@ -8,7 +11,7 @@ item_necklace = {
     just because nobody knows how you can carry them around your neck""",
 
     "reputation": 1,
-}
+    }
 
 item_glasses = {
     "id": "glasses",
@@ -21,7 +24,7 @@ item_glasses = {
     them on.""",
 
     "reputation": 1,
-}
+    }
 
 item_dreadlocks = {
     "id": "dreadlocks",
@@ -32,7 +35,7 @@ item_dreadlocks = {
     "Yeah, you deffo look better with that haircut...what do I know I can only code.",
 
     "reputation": 1,
-}
+    }
 
 item_tattoo = {
     "id": "tattoo",
@@ -43,7 +46,7 @@ item_tattoo = {
     nobody understands how you got that much of your body covered in ink.""",
 
     "reputation": 1,
-}
+    }
 
 item_mic = {
     "id": "mic",
@@ -55,7 +58,7 @@ item_mic = {
     be really special!""",
 
     "reputation": 1,
-}
+    }
 
 item_hat = {
     "id": "hat",
@@ -66,5 +69,5 @@ item_hat = {
     not care less. What I do know is your street cred has increased.""",
 
     "reputation": 1,
-}
-                            # Items changed by Darren 18/10/17
+    }
+# Items changed by Darren 18/10/17

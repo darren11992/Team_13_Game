@@ -9,7 +9,7 @@ from Bars import *
 rap = current_room["rap"]   # finds the relative rap from the room that you're in
 n = current_room["n"]   # this is the time limit you get for rapping in the current
 global a
-a = 0.75 # CHANGE THIS BACK
+a = 0.75  # CHANGE THIS BACK
 
 
 def screen_menu():
@@ -164,13 +164,12 @@ def execute_go(direction):
 
         current_room = rooms[b]
 
-
     else:
         print("You need to pick a valid direction")
 
 
 def menu(exits):
-    """Produces the menu via print_menu and takes the user's input"""
+    """Produces the menu via print_menu and takes the user's input."""
     print_menu(current_room["exits"])
     user_input = input("> ")
     if user_input == "q":

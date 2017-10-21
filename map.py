@@ -1,3 +1,6 @@
+"""File containing the rooms and their attributes."""
+
+
 from items import *
 
 room_reception = {
@@ -14,7 +17,7 @@ south and east. The exit is to the west.""",
     "exits": {"south": "Admins", "east": "Tutor", "west": "Parking"},
 
     "items": [item_biscuits, item_handbook]
-}
+    }
 
 room_admins = {
     "name": "MJ and Simon's room",
@@ -24,10 +27,10 @@ room_admins = {
 room. Inside you notice Matt "MJ" John and Simon Jones. They
 ignore you. To the north is the reception.""",
 
-    "exits":  {"north": "Reception"},
+    "exits": {"north": "Reception"},
 
     "items": []
-}
+    }
 
 room_tutor = {
     "name": "your personal tutor's office",
@@ -41,7 +44,7 @@ pack of biscuits. The reception is to the west.""",
     "exits": {"west": "Reception"},
 
     "items": []
-}
+    }
 
 room_parking = {
     "name": "the parking lot",
@@ -54,7 +57,7 @@ general office.""",
     "exits": {"east": "Office", "south": "Reception"},
 
     "items": []
-}
+    }
 
 room_office = {
     "name": "the general office",
@@ -68,9 +71,7 @@ Queen's Buildings.""",
     "exits": {"west": "Parking"},
 
     "items": [item_pen]
-}
-
-
+    }
 
 rooms = {
     "Reception": room_reception,
@@ -78,4 +79,4 @@ rooms = {
     "Tutor": room_tutor,
     "Parking": room_parking,
     "Office": room_office
-}
+    }

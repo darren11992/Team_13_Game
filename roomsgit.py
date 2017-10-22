@@ -3,20 +3,20 @@ from items import *
 room_studio = {
 	"name": "Studio",
 	"rap": "this ting go skraa, pap pap kak kak kak, skiddy skit pap pap, an a pop pop truu boom",
-	"n": 20,
+	"room_difficulty": 20,
 	"description": "The studio is small, and smells of marijuana. The coat rack is empty, man's not hot.",
 	"rapper": "Roadman Shaq",
 	"rapperbeat": False,
 	"exits": {"east": "Warehouse", "south": "Street Corner", "north": "Concert", "west": "Main Street"},
 	"items": [],
 	"award": item_hat
-	
+
 }
 
 room_warehouse = {
 	"name": "Warehouse",
 	"rap": "Kung fu kenny now, my resume is real enough for two millenniums",
-	"n": 4,
+	"room_difficulty": 4,
 	"description": "It's a dimly lit warehouse, the air is thick with smoke and excitement",
 	"rapper": "Kendrick Lamar",
 	"exits": {"west": "Studio", "north": "Grove Street"},
@@ -28,7 +28,7 @@ room_warehouse = {
 room_streetcorner = {
 	"name": "Street Corner",
 	"rap": "Who dat boy, who him is",
-	"n": 3,
+	"room_difficulty": 3,
 	"description": "There is a crowd of gang members",
 	"rapper": "Tyler, the Creator",
 	"exits": {"north": "Studio"},
@@ -40,7 +40,7 @@ room_streetcorner = {
 room_concert = {
 	"name": "Rap Concert",
 	"rap": "a suma luma duma luma you assumin I'm a human, what I got to do to get it through to you I'm superhuman",
-	"n": 2,
+	"room_difficulty": 2,
 	"description": "Eminem stands proudly on stage, as thousands of fans scream his name. Out of the crowd he spots you, and invites you to challenge him to a rap battle - live!",
 	"rapper": "Eminem",
 	"exits": {"south": "Studio"},
@@ -59,7 +59,7 @@ jail_entrance = {
 	"rapperbeat": False,
 	"rapper":"",
 
-	
+
 }
 
 main_street = {
@@ -68,7 +68,7 @@ main_street = {
 	"exits": {"north":"Jail Entrance", "south":"Grove Street", "east":"Studio"},
 	"items":[],
 	"rap": "I'm bout to make this mic short circuit, this beat is whack and fits you perfect",
-	"n":10,
+	"room_difficulty":10,
 	"rapperbeat": False,
 	"rapper":"Novice Rapper",
 	"award": item_glasses
@@ -80,10 +80,10 @@ grove_street = {
 	"exits": {"north":"Main Street", "south": "Warehouse"},
 	"items":[],
 	"rap":"",
-	"n":0,
+	"room_difficulty":0,
 	"rapperbeat": False,
 	"rapper":"",
-	
+
 }
 
 
@@ -97,9 +97,3 @@ rooms = {
     "Main Street": main_street,
     "Jail Entrance":jail_entrance
 }
-
-
-
-
-
-
